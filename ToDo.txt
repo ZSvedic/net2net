@@ -1,0 +1,26 @@
+To do:
+- normalize input?
+- Ogranically growing NN:
+    - Xander: https://docs.google.com/document/d/1gn29G7e4V-sYOqtB9u-nIUjsn4ioczof50INGV14yQg/edit#bookmark=id.emigtyj6b3xw
+    - Jason: https://docs.google.com/document/d/1URbKLdxUzGUGU2_hRF3CNwbimJqCIlLerOc3WwGNhoA/edit#
+    - https://discuss.pytorch.org/t/possible-to-add-initialize-new-nodes-to-hidden-layer-partway-through-training/3809
+    - https://discuss.pytorch.org/t/dynamic-addition-of-neurons/11577
+    - https://github.com/erogol/Net2Net
+
+Done:
++ Delete old params from double_layer()
++ Check if doubling of layers is working correctly.
++ Clean code
++ Lower LR in insert_identity
++ double_layer
++ Multiple runs for hyperparameter search
++ Experiment with https://docs.google.com/document/d/1xvRfY3aT_6dV-hM7F9GwwU3S5iXMnW0oRLO4cc8NhPI/edit#
++ Add BatchNorm1d
++ Xander recommendations: https://docs.google.com/document/d/1gn29G7e4V-sYOqtB9u-nIUjsn4ioczof50INGV14yQg/edit#heading=h.56kpsil3h2rg
++ Fixed bugs with BatchNorm1D layers.
++ Make entire project functional: 
+  > parts can be combined,
+  > run multiple times,
+  > every input and outpus is saved for analysis,
+  > current state can be output to console. 
++ Add dropout
